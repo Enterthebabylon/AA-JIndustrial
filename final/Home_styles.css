@@ -1,0 +1,226 @@
+
+/*-------------------------------------------------*/
+/* Logo Header */
+/*-------------------------------------------------*/
+
+/* Background Colour */
+#header{
+  background-color:rgb(251, 89, 36);  
+}
+
+/*  Logo position/size*/
+.logo{
+  height: 230px;
+  z-index: 2;
+  margin-top: -60px;
+  margin-bottom: -60px;  
+}
+
+/*-------------------------------------------------*/
+/* Nav bar ----------------------------------------*/
+/*-------------------------------------------------*/
+
+/*NavBar verticle position */
+
+
+.nav-item{
+  margin-top: 30px;
+}
+
+/*nav button text */
+.nav-link{
+  color:rgb(243, 239, 215) ;
+  font-family: sans-serif;
+  font-size: small;
+  font-weight: bold;
+}
+
+/*change button hover colour*/
+.nav-link:hover{
+  color:#1D2C49 ;
+}
+
+/* change active page selector from default colour */
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: var(--bs-nav-pills-link-active-color);
+  background-color:#1D2C49;
+}
+
+/*-------------------------------------------------*/
+/* Body -------------------------------------------*/
+/*-------------------------------------------------*/
+
+body {
+  font-family: sans-serif;
+  background-color:rgb(243, 239, 215) ;
+  min-width: 400px;
+}
+
+/*-------------------------------------------------*/
+/* Carousel ---------------------------------------*/
+/*-------------------------------------------------*/
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* carousel caption */
+.carousel-caption {
+  text-align: left;
+  font-weight:900;
+  bottom: 3rem;
+  z-index: 10;
+  color: rgb(251, 89, 36);
+  text-shadow: black 2px 0 10px;
+}
+
+/*H3 style*/
+.carousel-h3{
+  font-weight: bold;
+}
+
+/*image 1 postion */
+#image_centered_1{
+  margin-top: -60px;
+  height: 800px;
+  min-width: 400px;
+  object-fit: fill;
+  overflow: hidden;
+}
+/*image 2 postion */
+#image_centered_2{
+  height: 1000px;
+  min-width: 400px;
+  object-fit: fill;
+  overflow: hidden;
+}
+/*image 3 postion */
+#image_centered_3{
+  margin-top: -10px;
+  height: 500px;
+  min-width: 400px;
+  object-fit: fill;
+  overflow: hidden;
+}
+/* box height */
+.carousel-item {
+  height: 32rem;
+}
+
+/*-------------------------------------------------*/
+/* article ---------------------------------------*/
+/*-------------------------------------------------*/
+
+article{
+  padding-top: 20px;
+}
+
+.content_container{
+	width: 100%;
+	margin: auto;
+	display: grid;
+  grid-template-columns: auto auto;
+  gap: 2%;
+}
+
+.article_1{
+	margin: 0px 80px 0 30px;
+  text-align: left;
+  padding: 50px;
+}
+
+h1{
+  text-decoration: underline;
+  padding-bottom: 15px;
+}
+
+article > div > p {
+  font-size: 1.2rem;
+}
+.image_container_1{
+  background-size: contain;
+  padding: 30px;
+  margin: -20px 20px 0px 90px;
+  height: 500px;
+  width: 100%;
+  object-fit: fill;
+  align-items: center;
+}
+
+.section_H1{
+  color: #1D2C49;
+  text-decoration: underline;
+}
+
+.section_p{
+  color: #1D2C49;
+  font-weight:500;
+  font-size: 1.25rem;
+}
+
+
+/*-------------------------------------------------*/
+/* brands-- ---------------------------------------*/
+/*-------------------------------------------------*/
+#list{
+  list-style: none;
+}
+
+.brands_h1{
+  padding-top: 80px;
+  padding-bottom: 40px;
+  text-decoration: underline;
+  text-align:center;
+}
+
+.brands_container{
+  justify-content: center; /* Add this */
+  align-items: center;    /* Add this */
+  flex-wrap: wrap;        /* Add this */
+  display: flex;
+  grid-template-columns: auto auto auto auto auto auto;
+  margin-left: -20px;
+}
+
+.brand_image_container{
+  margin-left: 60px;
+  padding-top: 20px;
+  height: 150px;
+  display: flex;
+  float: left; 
+}
+
+/*-------------------------------------------------*/
+/* footer -----------------------------------------*/
+/*-------------------------------------------------*/
+footer {
+  margin-top: 10%;
+  margin-bottom: 0;
+  background-color: rgb(251, 89, 36);
+  height: 120px;
+  text-align: center;
+}
+
+
+.footer-font{
+  color: rgb(243, 239, 215);
+  padding-top: 50px;
+}
+
+/*-------------------------------------------------*/
+/* Media Flex -------------------------------------*/
+/*-------------------------------------------------*/
+@media (max-width: 768px) {
+  .image_container_1, .brand_image_container {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+  }
+  .content_container, .brands_container, .brand_image_container{
+      width: 100%;
+      margin-left: 0;
+      margin-top: 0;
+  }
+}
+
+

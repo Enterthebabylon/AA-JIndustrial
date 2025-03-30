@@ -1,0 +1,115 @@
+/*-------------------------------------------------*/
+/* Logo Header */
+/*-------------------------------------------------*/
+
+/* Background Colour */
+#header{
+    background-color:rgb(251, 89, 36);  
+  }
+  
+  /*  Logo position/size*/
+  .logo{
+    height: 230px;
+    z-index: 2;
+    margin-top: -60px;
+    margin-bottom: -60px;  
+  }
+  
+  /*-------------------------------------------------*/
+  /* Nav bar ----------------------------------------*/
+  /*-------------------------------------------------*/
+  
+  /*NavBar verticle position */
+  nav{ 
+    height: 120px;
+  }
+  
+  .nav-item{
+    margin-top: 30px;
+  }
+  
+  /*nav button text */
+  .nav-link{
+    color:rgb(243, 239, 215) ;
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: bold;
+  }
+  
+  /*change button hover colour*/
+  .nav-link:hover{
+    color:#1D2C49 ;
+  }
+  
+  /* change active page selector from default colour */
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color:#1D2C49;
+  }
+  
+  /*-------------------------------------------------*/
+  /* Body -------------------------------------------*/
+  /*-------------------------------------------------*/
+  
+  body {
+    color: #1D2C49;
+    font-family: sans-serif;
+    background-color:rgb(243, 239, 215) ;
+    min-width: 400px;
+  }
+  
+
+  .col-lg-4 {
+    margin: 100px 0px 24px 0px;
+    text-align: center;
+  }
+
+  .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+
+  .about_txt{
+    text-align: center;
+    text-wrap:balance
+  }
+
+ article{
+  text-align: center;
+ }
+
+ h1{
+  font-weight: 600;
+  padding: 30px 0 0px 0;
+  text-decoration: underline;
+ }
+
+ article > p{
+  display: block;
+  margin: 0 auto;
+  width: 55%;
+  font-size: 1.25rem;
+  font-weight:500;
+ }
+
+
+/*-------------------------------------------------*/
+/* footer -----------------------------------------*/
+/*-------------------------------------------------*/
+footer{
+  margin-top: 200px;
+  background-color:rgb(251, 89, 36);
+  height: 120px;
+  grid-column: 3/3;
+  text-align: center;
+}
+
+
+.footer-font{
+  color: rgb(243, 239, 215);
+  padding-top: 50px;
+}
+
+
+
+

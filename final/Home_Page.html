@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AA&J Industrial</title>
+    <link href="Logo\AltLogo-NoBackground.png" rel="icon">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> <!--  obtained from as casrousel would not progress https://stackoverflow.com/questions/72358495/need-help-to-figure-out-why-my-bootstrap-5-0-carousel-isnt-working-ty-->
+    <link href="Home_styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <!---------------->
+  <!------Nav------->
+  <!---------------->
+  <header>
+    <nav class="navbar navbar-expand-lg" id="header"  aria-label="Offcanvas navbar large">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Home_Page.html"><img src="Logo\AltLogo-NoBackground.png" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <ul class="nav nav-pills">
+                <li class="nav-item"><a href="Home_Page.html" class="nav-link active" aria-current="page">Home</a></li>
+                  <li class="nav-item"><a href="product.html" class="nav-link">Products</a></li>
+                  <li class="nav-item"><a href="rentals.html" class="nav-link">Rentals</a></li>
+                  <li class="nav-item"><a href="About_us.html" class="nav-link">About Us</a></li>
+                  <li class="nav-item"><a href="Contact_Us.html" class="nav-link">Contact Us</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--------------------------->
+  <!---------Carousel---------->
+  <!--------------------------->
+  <main>
+    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="" style="text-decoration: none;"><img src="HomePage_Photos\jelleke-vanooteghem-pliers.jpg" class="d-block w-100 image-overlay" alt="Tools" id="image_centered_1"></a><!--https://unsplash.com/photos/variety-product-inside-the-store-MohB4LCIPyM-->
+          <div class="container">
+            <div class="carousel-caption text-start" id="carousel-caption-background">
+              <h1>Quaility Tools </h1>
+              <h3 class="carousel-h3">From Brands You Trust</h3>
+            </div>
+          </div>  
+        </div>
+        <div class="carousel-item">
+          <a href="" style="text-decoration: none;"><img src="HomePage_Photos\ahsanization-ManWithGrindingWheel-unsplash.jpg" class="d-block w-100" alt="PPE" id="image_centered_2"></a> <!--https://unsplash.com/photos/man-grinding-metal-tool-in-industrial-machinery-wpvEMgFV4w0-->
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Person Protective Equipment</h1>
+              <h3 class="carousel-h3">For Every Trade and Industry</h3>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="" style="text-decoration: none;"><img src="HomePage_Photos\samuel-cruz-Skidsteer-unsplash.jpg" class="d-block w-100" alt="Rentals" id="image_centered_3"></a> <!--https://unsplash.com/photos/a-bulldozer-digging-in-dirt-pRUyV3B-5xc-->
+          <div class="container">
+            <div class="carousel-caption">
+             <h1>Rentals</h1>
+             <h3 class="carousel-h3">Wide Array of Equipment Available</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Carousel nav buttons-->
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+    <!--------------------------->
+    <!----Company photo/image---->
+    <!--------------------------->
+    <article class="content_container">
+      <img src="HomePage_Photos\Building.png" class="image_container_1">
+      <div class="article_1">
+        <h1>Proudly Serving since 2023</h1>
+        <p>
+           We may be the new kids on the block, but we are dedicated to providing top-notch products
+           and unparalleled service.
+        </p>
+        <p>
+           In our short tenure, we have curated a comprehensive inventory of industrial supplies. With an impressive selection 
+           comprising over one hundred thousand SKU's, from cutting-edge machinery to essential tools and safety equipment.<br>
+           A.A & J Industrial is well-equipped to meet the diverse demands of our clients.
+        </p>
+        <p>
+           As a forward-thinking and adaptable newcomer, A.A & J Industrial looks forward to growing alongside the industries
+           we serve. We invite you to explore our services, and connect with our enthusiastic team.
+        </p> 
+      </div>
+    </article>
+   <br><br>
+
+    <!--------------------------->
+    <!-------Brand images-------->
+    <!--------------------------->
+    <section>
+        <h1 class="brands_h1">Brands</h1>
+          <div class="brands_container">
+            <div>
+              <a href="https://www.makita.ca/index2new.php?event=promotions" class="brand_image_container" id="padding_left"><img src="HomePage_Photos\theme-photos-makita-unsplash.jpg" 
+              style="box-shadow: 10px 10px rgba(128, 128, 128, 0.644);" width="246px"></a>
+            </div>
+            <div>
+              <a href="https://www.dewalt.ca/promotions" class="brand_image_container"><img src="HomePage_Photos\greyson-joralemon-Dewalt-unsplash.jpg" 
+              style="box-shadow: 10px 10px rgba(128, 128, 128, 0.644);" width="246px"></a>
+            </div>
+            <div>
+              <a href="https://www.milwaukeetool.ca/" class="brand_image_container"><img src="HomePage_Photos\edoardo-botez-Milwaukee-unsplash.jpg" 
+              style="box-shadow: 10px 10px rgba(128, 128, 128, 0.644);" width="246px"></a>
+            </div>
+            <div>
+              <a href="https://www.hhworkwear.com/en_ca_ww/#" class="brand_image_container"><img src="HomePage_Photos\HellyHansen.jpg" 
+              style="box-shadow: 10px 10px rgba(128, 128, 128, 0.644);" width="246px"></a>
+            </div>
+            <div>
+              <a href="https://www.husqvarna.com/ca-en/" class="brand_image_container"><img src="HomePage_Photos\zac-gudakov-husqvarna-unsplash.jpg" 
+              style="box-shadow: 10px 10px rgba(128, 128, 128, 0.644);" width="246px"></a>
+            </div>
+            <div>
+              <a href="https://www.markscommercial.com/en-ca/product-catalogue" class="brand_image_container" id="padding_right"><img src="HomePage_Photos\Dakota.JPG"  
+              style="box-shadow: 10px 10px rgba(128, 128, 128, 0.644);" width="246px" > </a>
+            </div>
+          </div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="footer-font">AA&J Industrial, Ltd. Page by Alex Mackinnon</p>
+  </footer>
+    
+</body>
+</html>
